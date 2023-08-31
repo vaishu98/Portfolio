@@ -3,10 +3,10 @@ line {
     width: 1px;
     border-bottom: 1px solid rgb(255, 255, 255);
 
-    -webkit-animation: increase 1.7s;
-    -moz-animation: increase 1.7s;
-    -o-animation: increase 1.7s;
-    animation: increase 1.7s;
+    -webkit-animation: increase 1.5s;
+    -moz-animation: increase 1.5s;
+    -o-animation: increase 1.5s;
+    animation: increase 1.5s;
     animation-fill-mode: forwards;
 }
 
@@ -16,10 +16,10 @@ line2 {
     width: 1px;
     border-bottom: 1px solid rgb(255, 255, 255);
 
-    -webkit-animation: increase2 1.7s;
-    -moz-animation: increase2 1.7s;
-    -o-animation: increase2 1.7s;
-    animation: increase2 1.7s normal 1.7s;
+    -webkit-animation: increase2 1.5s;
+    -moz-animation: increase2 1.5s;
+    -o-animation: increase2 1.5s;
+    animation: increase2 1.5s normal 1.5s;
     animation-fill-mode: forwards;
 }
 
@@ -41,8 +41,8 @@ vdown {
     border-bottom: 2px solid;
     margin-bottom: 92px;
     margin-left: 45.5px;
-    -webkit-animation: draw1 1.7s;
-    animation: draw1 1.7s;
+    -webkit-animation: draw1 1.5s;
+    animation: draw1 1.5s;
     animation-fill-mode: forwards;
     transform-origin: 0 100%;
     transform: rotate(68deg);
@@ -56,8 +56,8 @@ vdown3 {
     border-bottom: 2px solid;
     margin-bottom: 92px;
     margin-left: 40.5px;
-    -webkit-animation: draw1 1.7s;
-    animation: draw1 1.7s;
+    -webkit-animation: draw1 1.5s;
+    animation: draw1 1.5s;
     animation-fill-mode: forwards;
     transform-origin: 0 100%;
     transform: rotate(68deg);
@@ -71,8 +71,8 @@ vdown2 {
     border-bottom: 2px solid;
     margin-bottom: 92px;
     margin-left: 45.5px;
-    -webkit-animation: draw3 1.7s normal 1.7s;
-    animation: draw3 1.7s normal 1.7s;
+    -webkit-animation: draw3 1.5s normal 1.5s;
+    animation: draw3 1.5s normal 1.5s;
     animation-fill-mode: forwards;
     transform-origin: 0 100%;
     transform: rotate(68deg);
@@ -86,8 +86,8 @@ vup {
     border-bottom: 2px solid;
     margin-top: 88px;
     margin-left: 85px;
-    -webkit-animation: draw2 1.7s;
-    animation: draw2 1.7s;
+    -webkit-animation: draw2 1.5s;
+    animation: draw2 1.5s;
     animation-fill-mode: forwards;
     transform-origin: 0 100%;
     transform: rotate(-68deg);
@@ -102,8 +102,8 @@ vup3 {
     margin-top: 88px;
     margin-left: 82.2px;
     margin-bottom: 12px;
-    -webkit-animation: draw5 1.7s;
-    animation: draw5 1.7s;
+    -webkit-animation: draw5 1.5s;
+    animation: draw5 1.5s;
     animation-fill-mode: forwards;
     transform-origin: 0 100%;
     transform: rotate(-68deg);
@@ -117,8 +117,8 @@ vup2 {
     border-bottom: 2px solid;
     margin-top: 88px;
     margin-left: 85px;
-    -webkit-animation: draw4 1.7s normal 1.7s;
-    animation: draw4 1.7s normal 1.7s;
+    -webkit-animation: draw4 1.5s normal 1.5s;
+    animation: draw4 1.5s normal 1.5s;
     animation-fill-mode: forwards;
     transform-origin: 0 100%;
     transform: rotate(-68deg);
@@ -167,18 +167,6 @@ vup2 {
     margin-bottom: 50px;
 }
 
-c {
-    border: 2px solid;
-    border-color: transparent;
-    width: 140px;
-    height: 140px;
-    border-radius: 50%;
-    position: absolute;
-    margin-right: 20px;
-    -webkit-animation: ccolor1 1.7s normal 0s;
-    animation: ccolor1 1.7s ease-in 0s;
-    animation-fill-mode: forwards;
-}
 
 c3 {
     border: 2px solid;
@@ -190,8 +178,8 @@ c3 {
     margin-left: -1.4px;
     position: absolute;
     margin-right: 20px;
-    -webkit-animation: ccolor1 1.7s normal 1.7s;
-    animation: ccolor1 1.7s ease-in 1.7s;
+    -webkit-animation: ccolor1 1.5s normal 1.5s;
+    animation: ccolor1 1.5s ease-in 1.5s;
     animation-fill-mode: forwards;
 }
 
@@ -203,8 +191,8 @@ c2 {
     border-radius: 50%;
     position: absolute;
     margin-right: 20px;
-    -webkit-animation: ccolor2 1.7s normal 1.7s;
-    animation: ccolor2 1.7s ease-in 1.7s;
+    -webkit-animation: ccolor2 1.5s normal 0s;
+    animation: ccolor2 1.5s ease-in 0s;
     animation-fill-mode: forwards;
 }
 
@@ -215,7 +203,18 @@ c2 {
 }
 
 @keyframes ccolor2 {
+    0% {
+        transform: rotate(0deg);
+        border-color: #fcbb6d transparent #fcbb6d #fcbb6d;
+    }
+
+    50% {
+        transform: rotate(-180deg);
+        border-color: #fcbb6d transparent #fcbb6d #fcbb6d;
+    }
+
     100% {
+        transform: rotate(-360deg);
         border-color: #fcbb6d transparent #fcbb6d #fcbb6d;
     }
 }
@@ -243,7 +242,7 @@ c2 {
     font-size: 2em;
     font-family: 'La Sonnambula', sans-serif;
     visibility: hidden;
-    animation: focus-in-contract 1s linear 3s;
+    animation: focus-in-contract 0.7s linear 1.5s;
     animation-fill-mode: forwards;
 }
 
