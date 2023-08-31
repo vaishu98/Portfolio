@@ -39,7 +39,7 @@ vdown {
     height: 0px;
     width: 1px;
     border-bottom: 2px solid;
-    margin-bottom: 92px;
+    margin-bottom: 93px;
     margin-left: 45.5px;
     -webkit-animation: draw1 1.5s;
     animation: draw1 1.5s;
@@ -54,7 +54,7 @@ vdown3 {
     height: 0px;
     width: 1px;
     border-bottom: 2px solid;
-    margin-bottom: 92px;
+    margin-bottom: 93px;
     margin-left: 40.5px;
     -webkit-animation: draw1 1.5s;
     animation: draw1 1.5s;
@@ -69,7 +69,7 @@ vdown2 {
     height: 0px;
     width: 1px;
     border-bottom: 2px solid;
-    margin-bottom: 92px;
+    margin-bottom: 93px;
     margin-left: 45.5px;
     -webkit-animation: draw3 1.5s normal 1.5s;
     animation: draw3 1.5s normal 1.5s;
@@ -129,7 +129,7 @@ vup2 {
 @keyframes draw1 {
     100% {
         border-color: #d8737f;
-        width: 100px;
+        width: 98.1px;
     }
 }
 
@@ -150,7 +150,7 @@ vup2 {
 @keyframes draw3 {
     100% {
         border-color: #fcbb6d;
-        width: 100px;
+        width: 98.1px;
     }
 }
 
