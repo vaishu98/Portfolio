@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    height: 2000px;
+}
+
+.icon-bar {
+    position: fixed;
+    top: 50%;
+    right: 0%;
+}
+
+@keyframes slide-in {
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+.icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+    background-color: #d8737f;
+    margin: 5px;
+    margin-right: 0px;
+}
+
+.icon-bar a:hover {
+    background-color: #1a2537;
+}
+
+.icon-bar a:active {
+    background-image: linear-gradient(-70deg, #e8c59a, #fcbb6d);
+    color: black;
+}
+
+.mail {
+    transform: translateX(100%);
+    animation: slide-in 1s 2.2s forwards;
+}
+
+.phone {
+    transform: translateX(100%);
+    animation: slide-in 0.3s 2.44s forwards;
+}
+
+.linkedin {
+    transform: translateX(100%);
+    animation: slide-in 0.3s 2.68s forwards;
+}
+
+.github {
+    transform: translateX(100%);
+    animation: slide-in 0.3s 2.92s forwards;
+}
+
+.insta {
+    transform: translateX(100%);
+    animation: slide-in 0.3s 3.26s forwards;
+}

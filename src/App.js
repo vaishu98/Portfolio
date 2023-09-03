@@ -1,12 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
 import Sign from './MyComponents/Sign';
+import MenuBar from './MyComponents/Menubar';
+import Socialmedia from './MyComponents/Socialmedia';
+
 
 function App() {
   return (
-    <div className="App">
-      <Sign></Sign>
-    </div>
+    <>
+      <div className="App">
+        <MenuBar />
+        <Socialmedia />
+        <Sign />
+      </div>
+    </>
   );
 }
 

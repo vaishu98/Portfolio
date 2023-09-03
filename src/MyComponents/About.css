@@ -1,0 +1,39 @@
+.parallelogram {
+    width: 45em;
+    height: 23em;
+    transform: skew(-20deg);
+    background: #fcbb6d;
+    z-index: 1;
+    border: none;
+}
+
+.parallelogram2 {
+    width: 45em;
+    height: 23em;
+    transform: skew(-20deg);
+    background: #fcbb6d;
+    z-index: 2;
+    border: none;
+}
+
+.container {
+    margin-left: 10%;
+    margin-top: 25%;
+    border: none;
+    width: fit-content;
+    height: fit-content;
+    transform: translateX(-300%);
+    animation: appear 0.7s 6s forwards;
+    position: relative;
+
+}
+
+@keyframes appear {
+    from {
+        transform: translateX(-300%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
