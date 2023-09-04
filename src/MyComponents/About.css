@@ -1,39 +1,38 @@
 .parallelogram {
-    width: 45em;
-    height: 23em;
+    width: 700px;
+    height: 400px;
     transform: skew(-20deg);
-    background: #fcbb6d;
-    z-index: 1;
+    background: #1a2537;
     border: none;
-}
-
-.parallelogram2 {
-    width: 45em;
-    height: 23em;
-    transform: skew(-20deg);
-    background: #fcbb6d;
-    z-index: 2;
-    border: none;
+    box-shadow: 50px 50px #fabe76cc;
+    display: inline-block;
 }
 
 .container {
-    margin-left: 10%;
-    margin-top: 25%;
-    border: none;
+    margin-top: -17%;
+    z-index: 1;
     width: fit-content;
     height: fit-content;
-    transform: translateX(-300%);
-    animation: appear 0.7s 6s forwards;
+    transform: translateX(-600%);
+    animation: appear 1s 5.2s forwards;
+    display: inline;
     position: relative;
-
 }
 
 @keyframes appear {
     from {
-        transform: translateX(-300%);
+        transform: translateX(-600%);
     }
 
     to {
-        transform: translateX(0);
+        transform: translateX(-30%);
     }
+}
+
+p {
+    color: white;
+    padding: 40px;
+    transform: skew(15deg);
+    font-family: 'La Belle Aurore';
+    font-size: 24px;
 }

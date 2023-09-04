@@ -11,6 +11,7 @@
     justify-content: space-between;
     align-items: center;
     font-family: 'La Belle Aurore';
+    z-index: 2;
 }
 
 @keyframes fadeIn {

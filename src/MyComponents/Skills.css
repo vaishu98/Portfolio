@@ -1,0 +1,22 @@
+.skills-main {
+    z-index: 1;
+    width: fit-content;
+    height: fit-content;
+    margin-top: 50;
+    position: relative;
+    vertical-align: middle;
+    align-items: center;
+    display: inline-block;
+}
+
+.each-skill {
+    height: 400px;
+    width: 370px;
+    background: #1a2537;
+    display: inline-block;
+    margin: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 30px 30px #fabe76cc;
+    transform: skew(-5deg);
+}

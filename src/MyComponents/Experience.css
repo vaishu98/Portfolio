@@ -1,0 +1,23 @@
+.experience-main {
+    z-index: 1;
+    width: fit-content;
+    height: fit-content;
+    margin-top: 50;
+    position: relative;
+    vertical-align: middle;
+    align-items: center;
+    display: inline-block;
+}
+
+.each-exp {
+    height: 400px;
+    width: 700px;
+    background-color: #eeb9c0c4;
+    display: inline-block;
+    margin: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: solid rgba(255, 255, 255, 0.422) 10px;
+    border-radius: 20px;
+    transform: skew(-5deg);
+}

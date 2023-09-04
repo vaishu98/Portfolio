@@ -1,0 +1,30 @@
+.each-project {
+    height: 400px;
+    width: 370px;
+    background-color: #eeb9c0;
+    background-image: linear-gradient(-70deg, #ab6c8244, #eeb9c055);
+    display: inline-block;
+    margin: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: solid rgba(255, 255, 255, 0.422) 10px;
+    border-radius: 20px;
+    transform: skew(-5deg);
+}
+
+
+
+.projects-main {
+    z-index: 1;
+    width: fit-content;
+    height: fit-content;
+    margin-top: 50;
+    position: relative;
+    vertical-align: middle;
+    align-items: center;
+    display: inline-block;
+}
+
+.gap {
+    padding: 50px;
+}

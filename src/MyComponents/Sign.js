@@ -21,8 +21,8 @@ export default function Sign() {
             </div>
             <line></line>
             <line2></line2>
-            <div class='at-container'>
-                <div class='at-item' >Vaishnavi Chilakamarthi</div>
+            <div className='at-container'>
+                <div className='at-item' >Vaishnavi Chilakamarthi</div>
             </div>
         </>
     )

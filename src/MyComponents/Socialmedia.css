@@ -26,13 +26,15 @@ body {
     transition: all 0.3s ease;
     color: white;
     font-size: 20px;
-    background-color: #d8737f;
+    background-color: #b06f86;
     margin: 5px;
     margin-right: 0px;
+    margin-bottom: 10px;
 }
 
 .icon-bar a:hover {
     background-color: #1a2537;
+    border: solid white 2px;
 }
 
 .icon-bar a:active {

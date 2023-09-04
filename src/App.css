@@ -4,20 +4,52 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-color: black;
 
 }
 
-body {
-  background-color: #395379;
-  background-image: linear-gradient(-70deg, #395379, #ab6c82c6);
-  background-attachment: fixed;
-  background-position: 0 0px;
-  background-repeat: no-repeat;
-  z-index: -1;
-}
-
-.mainc {
-  top: 100px;
-  left: 100px;
+.container {
+  margin-left: 10%;
+  margin-top: 25%;
+  border: none;
+  width: fit-content;
+  height: fit-content;
+  transform: translateX(-300%);
+  animation: appear 0.7s 6s forwards;
   position: absolute;
+
+}
+
+@keyframes appear {
+  from {
+    transform: translateX(-300%);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+.tag-open {
+  display: flex;
+  margin-left: 0%;
+  padding-bottom: 0px;
+  font-family: 'La Belle Aurore';
+  font-size: 34px;
+  vertical-align: text-top;
+  transform: skew(20deg);
+}
+
+.tag-close {
+  display: flex;
+  margin-left: 60%;
+  font-family: 'La Belle Aurore';
+  font-size: 34px;
+  transform: skew(20deg);
+}
+
+mark {
+  color: black;
+  transform: skew(-40deg);
+  background-color: #eeb9c0;
 }
