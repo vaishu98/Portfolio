@@ -9,7 +9,7 @@
     display: inline-block;
 }
 
-.contact-sub {
+.contact-sub1 {
     height: 800px;
     width: 700px;
     background: #1a2537;
@@ -19,4 +19,20 @@
     margin-bottom: 20px;
     box-shadow: 30px 30px #fabe76cc;
     transform: skew(-5deg);
+}
+
+.contact-sub2 {
+    height: 300px;
+    width: 750px;
+    background: #1a2537;
+    display: inline-block;
+    margin: 90px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 30px 30px #fabe76cc;
+    transform: skew(-5deg);
+}
+
+.gap {
+    padding: 50px;
 }

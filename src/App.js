@@ -13,11 +13,21 @@ import Contact from './MyComponents/Contact';
 
 function App() {
   const [backgroundImage, setBackgroundImage] = useState(Plainbg);
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    const image = new Image();
+    image.src = Background;
+    image.onload = () => {
+      setIsLoading(false);
+    };
+  }, []);
 
   useEffect(() => {
     const timeout = setTimeout(() => {
       setBackgroundImage(Background);
-    }, 5500);
+    }, 5000);
+
     return () => clearTimeout(timeout);
   }, []);
 
@@ -26,21 +36,26 @@ function App() {
     backgroundAttachment: "fixed",
     backgroundSize: "contain",
     zIndex: "-2",
-    backgroundRepeat: "no-repeat"
+    backgroundRepeat: "no-repeat",
+    transition: "background-image 1s ease-in-out"
   };
 
   return (
     <>
-      <div className="App" style={myStyle}>
-        <MenuBar />
-        <Socialmedia />
-        <Sign />
-        <About />
-        <Projects />
-        <Skills />
-        <Experience />
-        <Contact />
-      </div>
+      {isLoading ? (
+        <div>Loading...</div>
+      ) : (
+        <div className="App" style={myStyle}>
+          <MenuBar />
+          <Socialmedia />
+          <Sign />
+          <About />
+          <Projects />
+          <Skills />
+          <Experience />
+          <Contact />
+        </div>
+      )}
     </>
   );
 }
