@@ -1,19 +1,17 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.cc7f78ee.css",
-    "main.js": "/Portfolio/static/js/main.cbf62c61.js",
-    "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
-    "static/media/seabg.png": "/Portfolio/static/media/seabg.ec62b0fa1953fc1232e6.png",
-    "static/media/plainbg.png": "/Portfolio/static/media/plainbg.77df97508062a75ddb94.png",
-    "static/media/sign.png": "/Portfolio/static/media/sign.b564f8b4cf05739688b2.png",
+    "main.css": "/Portfolio/static/css/main.5a9e0312.css",
+    "main.js": "/Portfolio/static/js/main.e6ce419c.js",
+    "static/js/787.c5998116.chunk.js": "/Portfolio/static/js/787.c5998116.chunk.js",
     "static/media/Resume_Vaishnavi_Chilakamarthi.pdf": "/Portfolio/static/media/Resume_Vaishnavi_Chilakamarthi.a7dbd27b633e0b5d79ae.pdf",
+    "static/media/dp.jpeg": "/Portfolio/static/media/dp.39ab79acede7c02893c7.jpeg",
     "index.html": "/Portfolio/index.html",
-    "main.cc7f78ee.css.map": "/Portfolio/static/css/main.cc7f78ee.css.map",
-    "main.cbf62c61.js.map": "/Portfolio/static/js/main.cbf62c61.js.map",
-    "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
+    "main.5a9e0312.css.map": "/Portfolio/static/css/main.5a9e0312.css.map",
+    "main.e6ce419c.js.map": "/Portfolio/static/js/main.e6ce419c.js.map",
+    "787.c5998116.chunk.js.map": "/Portfolio/static/js/787.c5998116.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cc7f78ee.css",
-    "static/js/main.cbf62c61.js"
+    "static/css/main.5a9e0312.css",
+    "static/js/main.e6ce419c.js"
   ]
 }
