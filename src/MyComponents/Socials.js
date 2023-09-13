@@ -19,7 +19,7 @@ export default function Socials() {
             </>
             <div id="socials" className='socials-title'>SOCIALS</div>
             <div className='socials'>
-                <a href="https://www.linkedin.com/in/vaishnavi-chilakamarthi/" className="linkedin" data-aos="fade-up"><i className="fa fa-linkedin fa-5x"></i></a>
+                <a href="https://www.linkedin.com/in/vaishnavi-chilakamarthi/" className="linkedin"><i className="fa fa-linkedin fa-5x" data-aos="fade-up"></i></a>
                 <a href="https://github.com/vaishu98" className="github"><i className="fa fa-github fa-5x" data-aos="fade-up"></i></a>
                 <a href="https://www.instagram.com/vaishnavichilakamarthi/" className="insta"> <i className="fa fa-instagram fa-5x" data-aos="fade-up"></i></a>
             </div>

@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import './Menubar.css';
 import Resume_Vaishnavi_ChilakamarthiPdf from '../Assets/Resume_Vaishnavi_Chilakamarthi.pdf';
+import Sign from "../Assets/sign.png";
+
 function MenuBar() {
 
     const [activeMenuItem, setActiveMenuItem] = useState('about');
@@ -46,7 +48,7 @@ function MenuBar() {
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
             <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet" />
             <div className="topnav" id="myTopnav">
-                <p className='sign'>VC</p>
+                <img src={Sign} className='sign'></img>
                 <div className='menu'>
                     <a
                         href="#about"

@@ -1,5 +1,4 @@
 import './App.css';
-import React, { useState, useEffect } from 'react';
 import Sign from './MyComponents/Sign';
 import MenuBar from './MyComponents/Menubar';
 import Socialmedia from './MyComponents/Socialmedia';
