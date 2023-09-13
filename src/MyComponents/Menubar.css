@@ -1,6 +1,6 @@
 .topnav {
     overflow: hidden;
-    background-color: #ab6c82;
+    background-color: #f0d4d8;
     width: 100%;
     top: 0%;
     position: fixed;
@@ -10,8 +10,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-family: 'La Belle Aurore';
     z-index: 2;
+    font-weight: 800;
+    box-shadow: 10px 10px 15px rgba(128, 128, 128, 0.134);
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 @keyframes fadeIn {
@@ -27,26 +29,19 @@
 .topnav a {
     float: left;
     display: block;
-    color: #f2f2f2;
+    color: black;
     text-align: center;
-    padding: 20px 36px;
-    border-right: solid;
-    border-width: 1px;
-    border-color: #835263;
+    padding: 22px 26px;
     text-decoration: none;
     font-size: 21px;
 }
 
 .topnav a:hover {
-    background-color: #1a2537;
-    color: white;
-    border-width: 0px;
+    color: #835263;
 }
 
 .topnav a.active {
-    background-image: linear-gradient(-70deg, #e8c59a, #fcbb6d);
-    color: black;
-    border-width: 0px;
+    color: #835263;
 }
 
 .topnav .icon {
@@ -84,22 +79,19 @@
 
 .button {
     height: 50px;
-    width: 200px;
-    border-radius: 5px;
-    border-color: #835263;
-    font-family: 'La Belle Aurore';
+    width: 150px;
     font-size: 21px;
     vertical-align: middle;
+    border: none;
+    border-radius: 30px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 900;
+    box-shadow: 10px 15px 28px 0px rgba(0, 0, 0, 0.1);
 }
 
 button:hover {
-    background-color: #1a2537;
+    background-color: black;
     color: white;
-}
-
-button:active {
-    background-image: linear-gradient(-70deg, #e8c59a, #fcbb6d);
-    color: black;
 }
 
 .nohover a:hover {
@@ -114,4 +106,14 @@ button:active {
     position: relative;
     float: left;
     margin-top: 4px;
+}
+
+.menu {
+    margin-left: 0%;
+}
+
+.sign {
+    font-size: 50px;
+    font-weight: 900;
+    padding-left: 30px;
 }

@@ -1,23 +1,42 @@
-.experience-main {
-    z-index: 1;
-    width: fit-content;
+.exp-title {
+    color: black;
+    font-size: 40px;
+    font-weight: 1000;
+    width: 320px;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-left: 10%;
+    padding-top: 1.2in;
+    padding-bottom: 0.5in;
+}
+
+.exp-main {
+    width: 47%;
     height: fit-content;
-    margin-top: 50;
-    position: relative;
-    vertical-align: middle;
-    align-items: center;
-    display: inline-block;
+    border-left: solid 5px rgba(128, 128, 128, 0.552);
+    height: fit-content;
+    padding: 20px;
+    line-height: 0.2cm;
 }
 
 .each-exp {
-    height: 400px;
-    width: 700px;
-    background-color: #eeb9c0c4;
-    display: inline-block;
-    margin: 30px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border: solid rgba(255, 255, 255, 0.422) 10px;
-    border-radius: 20px;
-    transform: skew(-5deg);
+    padding: 20px;
+    background-color: white;
+    border-bottom: solid 5px rgba(128, 128, 128, 0.552);
+}
+
+.each-exp2 {
+    padding: 20px;
+    background-color: white;
+}
+
+
+.role {
+    font-weight: 800;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+li span {
+    position: relative;
+    left: -10px;
 }

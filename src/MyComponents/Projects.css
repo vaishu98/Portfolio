@@ -1,30 +1,63 @@
-.each-project {
-    height: 400px;
-    width: 370px;
-    background-color: #eeb9c0;
-    background-image: linear-gradient(-70deg, #ab6c8244, #eeb9c055);
-    display: inline-block;
-    margin: 30px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border: solid rgba(255, 255, 255, 0.422) 10px;
-    border-radius: 20px;
-    transform: skew(-5deg);
+.pro-title {
+    color: black;
+    font-size: 40px;
+    font-weight: 1000;
+    width: 320px;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-left: 10%;
+    padding-top: 1.2in;
+    padding-bottom: 0.5in;
 }
 
-
-
-.projects-main {
-    z-index: 1;
+.allp {
     width: fit-content;
     height: fit-content;
-    margin-top: 50;
-    position: relative;
-    vertical-align: middle;
-    align-items: center;
-    display: inline-block;
 }
 
-.gap {
-    padding: 50px;
+.row-pro {
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    margin-bottom: 80px;
+}
+
+.each-pro {
+    width: 420px;
+    height: 550px;
+    margin: 20px;
+    background-color: white;
+    box-shadow: 10px 15px 18px 0px rgba(23.000000000000004, 23.000000000000004, 36, 0.1);
+}
+
+.each-pro-title {
+    background-color: black;
+    height: 90px;
+    width: 420px;
+    padding: 0%;
+    font-weight: 800;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 45px;
+}
+
+.each-pro:hover>.each-pro-title {
+    background-color: #835263;
+}
+
+.proj-content {
+    font-size: larger;
+    padding: 30px;
+    font-weight: 500;
+}
+
+.tech {
+    font-weight: 700;
+    text-align: center;
+}
+
+.tech a {
+    padding-right: 50px;
+    padding-left: 40px;
 }

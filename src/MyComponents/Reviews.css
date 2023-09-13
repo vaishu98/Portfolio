@@ -1,0 +1,33 @@
+.reviews-title {
+    color: black;
+    font-size: 40px;
+    font-weight: 1000;
+    width: 320px;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding-top: 1.2in;
+    text-align: center;
+    padding-bottom: 0.5in;
+}
+
+.each-review {
+    height: fit-content;
+    width: 1050px;
+    align-content: center;
+    font-style: italic;
+    text-align: justify;
+    padding-left: 50px;
+}
+
+.open-quote {
+    padding: 10px;
+    width: 1000px;
+}
+
+.close-quote {
+    width: 1130px;
+    text-align: right;
+}
+
+.gap-div {
+    height: 50px;
+}

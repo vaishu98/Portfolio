@@ -7,6 +7,7 @@ body {
     position: fixed;
     top: 50%;
     right: 0%;
+    z-index: 2;
 }
 
 @keyframes slide-in {
@@ -26,20 +27,20 @@ body {
     transition: all 0.3s ease;
     color: white;
     font-size: 20px;
-    background-color: #b06f86;
+    background-color: black;
     margin: 5px;
     margin-right: 0px;
     margin-bottom: 10px;
 }
 
 .icon-bar a:hover {
-    background-color: #1a2537;
-    border: solid white 2px;
+    background-color: #b06f86;
+
 }
 
 .icon-bar a:active {
-    background-image: linear-gradient(-70deg, #e8c59a, #fcbb6d);
-    color: black;
+    background-color: #af798c;
+    color: black
 }
 
 .mail {

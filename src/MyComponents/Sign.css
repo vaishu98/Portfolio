@@ -1,7 +1,7 @@
 line {
     height: 0px;
     width: 1px;
-    border-bottom: 1px solid rgb(255, 255, 255);
+    border-bottom: 1px solid black;
     animation: increase 1.5s, fadeOut 1.5s 4s;
     animation-fill-mode: forwards;
 }
@@ -10,7 +10,7 @@ line2 {
     padding-top: 2px;
     height: 0px;
     width: 1px;
-    border-bottom: 1px solid rgb(255, 255, 255);
+    border-bottom: 1px solid black;
     animation: increase2 1.5s normal 1.5s,
         fadeOut 1.5s 4s;
     animation-fill-mode: forwards;
@@ -122,35 +122,35 @@ vup2 {
 
 @keyframes draw1 {
     100% {
-        border-color: #d8737f;
+        border-color: black;
         width: 98.1px;
     }
 }
 
 @keyframes draw2 {
     100% {
-        border-color: #d8737f;
+        border-color: black;
         width: 103px;
     }
 }
 
 @keyframes draw5 {
     100% {
-        border-color: #d8737f;
+        border-color: black;
         width: 105px;
     }
 }
 
 @keyframes draw3 {
     100% {
-        border-color: #fcbb6d;
+        border-color: #e9909a;
         width: 98.1px;
     }
 }
 
 @keyframes draw4 {
     100% {
-        border-color: #fcbb6d;
+        border-color: #e9909a;
         width: 103px;
     }
 }
@@ -192,41 +192,41 @@ c2 {
 
 @keyframes ccolor1 {
     100% {
-        border-color: #d8737f transparent #d8737f #d8737f;
+        border-color: black transparent black black;
     }
 }
 
 @keyframes ccolor2 {
     0% {
         transform: rotate(0deg);
-        border-color: #fcbb6d transparent #fcbb6d #fcbb6d;
+        border-color: #e9909a transparent #e9909a #e9909a;
     }
 
     50% {
         transform: rotate(-180deg);
-        border-color: #fcbb6d transparent #fcbb6d #fcbb6d;
+        border-color: #e9909a transparent #e9909a #e9909a;
     }
 
     100% {
         transform: rotate(-360deg);
-        border-color: #fcbb6d transparent #fcbb6d #fcbb6d;
+        border-color: #e9909a transparent #e9909a #e9909a;
     }
 }
 
 @keyframes cdisappear1 {
     0% {
         transform: rotate(0deg);
-        border-color: #fcbb6d transparent #fcbb6d #fcbb6d;
+        border-color: #e9909a transparent #e9909a #e9909a;
     }
 
     0% {
         transform: rotate(0deg);
-        border-color: transparent transparent #fcbb6d #fcbb6d;
+        border-color: transparent transparent #e9909a #e9909a;
     }
 
     50% {
         transform: rotate(-180deg);
-        border-color: transparent transparent #fcbb6d transparent;
+        border-color: transparent transparent #e9909a transparent;
     }
 
     100% {
@@ -238,17 +238,17 @@ c2 {
 @keyframes cdisappear2 {
     0% {
         transform: rotate(0deg);
-        border-color: #d8737f transparent #d8737f #d8737f;
+        border-color: black transparent black black;
     }
 
     33% {
         transform: rotate(0deg);
-        border-color: transparent transparent #d8737f #d8737f;
+        border-color: transparent transparent black black;
     }
 
     66% {
         transform: rotate(-180deg);
-        border-color: transparent transparent #d8737f transparent;
+        border-color: transparent transparent black transparent;
     }
 
     100% {
@@ -275,13 +275,13 @@ c2 {
 
 .at-item {
     padding-top: 20px;
-    color: #eeb9c0;
+    color: black;
     font-weight: bold;
     font-size: 2em;
-    font-family: 'La Sonnambula', sans-serif;
     visibility: hidden;
     animation: focus-in-contract 0.7s linear 1.5s, fadeOut 1.2s 4s;
     animation-fill-mode: forwards;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 div.at-container {

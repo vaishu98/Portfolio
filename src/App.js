@@ -5,57 +5,36 @@ import MenuBar from './MyComponents/Menubar';
 import Socialmedia from './MyComponents/Socialmedia';
 import About from "./MyComponents/About";
 import Projects from './MyComponents/Projects';
-import Background from "./Assets/seabg.png";
-import Plainbg from "./Assets/plainbg.png";
 import Skills from './MyComponents/Skills';
 import Experience from './MyComponents/Experience';
 import Contact from './MyComponents/Contact';
+import Education from './MyComponents/Education';
+import Review from './MyComponents/Review';
+import Socials from './MyComponents/Socials';
 
 function App() {
-  const [backgroundImage, setBackgroundImage] = useState(Plainbg);
-  const [isLoading, setIsLoading] = useState(true);
 
-  useEffect(() => {
-    const image = new Image();
-    image.src = Background;
-    image.onload = () => {
-      setIsLoading(false);
-    };
-  }, []);
-
-  useEffect(() => {
-    const timeout = setTimeout(() => {
-      setBackgroundImage(Background);
-    }, 5000);
-
-    return () => clearTimeout(timeout);
-  }, []);
-
-  const myStyle = {
-    backgroundImage: `url(${backgroundImage})`,
-    backgroundAttachment: "fixed",
-    backgroundSize: "contain",
-    zIndex: "-2",
-    backgroundRepeat: "no-repeat",
-    transition: "background-image 1s ease-in-out"
-  };
 
   return (
     <>
-      {isLoading ? (
-        <div>Loading...</div>
-      ) : (
-        <div className="App" style={myStyle}>
-          <MenuBar />
-          <Socialmedia />
-          <Sign />
-          <About />
-          <Projects />
-          <Skills />
-          <Experience />
-          <Contact />
-        </div>
-      )}
+      <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400&display=swap" rel="stylesheet" />
+      </head>
+      <div className="App" >
+        <MenuBar />
+        <Socialmedia />
+        <Sign />
+        <About />
+        <Skills />
+        <Education />
+        <Experience />
+        <Projects />
+        <Socials />
+        <Review />
+        <Contact />
+      </div>
     </>
   );
 }

@@ -1,38 +1,75 @@
+.contact-title {
+    color: black;
+    font-size: 40px;
+    font-weight: 1000;
+    width: 320px;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding-top: 1.2in;
+    text-align: center;
+    padding-bottom: 0.5in;
+}
+
 .contact-main {
-    z-index: 1;
-    width: fit-content;
     height: fit-content;
-    margin-top: 50;
-    position: relative;
-    vertical-align: middle;
-    align-items: center;
-    display: inline-block;
+    margin-bottom: 100px;
 }
 
-.contact-sub1 {
-    height: 800px;
-    width: 700px;
-    background: #1a2537;
-    display: inline-block;
-    margin: 90px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    box-shadow: 30px 30px #fabe76cc;
-    transform: skew(-5deg);
+input {
+    padding: 10px;
+    margin: 20px;
+    overflow: hidden;
+    background-color: transparent;
+    border-radius: 10px;
+    height: 25px;
+    width: 500px;
+    display: flex;
+    border: solid 1px black;
+    font-size: large;
+    font-family: 'Montserrat', sans-serif;
 }
 
-.contact-sub2 {
-    height: 300px;
-    width: 750px;
-    background: #1a2537;
-    display: inline-block;
-    margin: 90px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    box-shadow: 30px 30px #fabe76cc;
-    transform: skew(-5deg);
+input:focus {
+    background-color: rgba(255, 255, 255, 0.525);
+    border: none;
+    outline: none;
 }
 
-.gap {
-    padding: 50px;
+textarea {
+    padding: 10px;
+    margin: 20px;
+    overflow: hidden;
+    background-color: transparent;
+    border-radius: 10px;
+    height: 25px;
+    width: 500px;
+    display: flex;
+    border: solid 1px black;
+    font-size: large;
+    font-family: 'Montserrat', sans-serif;
+    height: 200px
+}
+
+textarea:focus {
+    background-color: rgba(255, 255, 255, 0.525);
+    border: none;
+    outline: none;
+}
+
+.button-sub input {
+    margin-top: 30px;
+    height: 50px;
+    width: 100px;
+    font-size: 21px;
+    border: none;
+    border-radius: 30px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 900;
+    box-shadow: 10px 15px 28px 0px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.544);
+    padding-left: 26px;
+}
+
+.button-sub input:hover {
+    background-color: black;
+    color: white;
 }

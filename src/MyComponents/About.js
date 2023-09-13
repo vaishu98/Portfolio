@@ -1,22 +1,24 @@
 import React from 'react'
-import sign from "../Assets/sign.png"
+import dp from "../Assets/dp.jpeg"
 
 import "./About.css"
 
 export default function About() {
     return (
         <>
-            <div className="container">
-                <p className='tag-open'><mark>&lt; About &gt; </mark></p>
+            <>
+                <link rel="preconnect" href="https://fonts.googleapis.com" />
+                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+                <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet" />
+            </>
+            <div id="about" className="container">
                 <div className="parallelogram">
-                    <p>Have you written for any welelated competitions? Presented any talks at big conferences?
-                        Thewebsite. They can help set you agive you an extra edge when it comes to hiring time. Plus, everyone likes to be #1…so this is the perfect way to inform people about your big wins without sounding braggy!
-                        However, it’s probably best tfish” awards like your A+ in high school computer class. Don’t look desperate.</p>
+                    <p className='about-title'>HELLO! THIS IS VAISHNAVI CHILAKAMARTHI</p>
+                    <p className='about-data'>A dedicated technologist with a strong background in a diverse range of technologies and a passion for solving complex challenges.
+                        My expertise spans programming languages, database systems, web development, cloud computing, and artificial intelligence.
+                    </p>
                 </div>
-                <p className='tag-close'><mark>&lt; About &#47; &gt; </mark></p>
-
-            </div>
-
-        </>
+                <img className='dp' src={dp} />
+            </div></>
     )
 }

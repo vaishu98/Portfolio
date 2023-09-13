@@ -5,7 +5,12 @@
   align-items: center;
   justify-content: center;
   background-color: black;
-
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f0d4d8;
+  background-attachment: "fixed";
+  background-size: "cover";
+  z-index: "-2";
+  background-repeat: "no-repeat";
 }
 
 .container {
@@ -32,9 +37,9 @@
 
 .tag-open {
   display: flex;
-  margin-left: 0%;
+  margin-right: 60%;
+  text-align: left;
   padding-bottom: 0px;
-  font-family: 'La Belle Aurore';
   font-size: 34px;
   vertical-align: text-top;
   transform: skew(20deg);
@@ -43,7 +48,6 @@
 .tag-close {
   display: flex;
   margin-left: 60%;
-  font-family: 'La Belle Aurore';
   font-size: 34px;
   transform: skew(20deg);
 }

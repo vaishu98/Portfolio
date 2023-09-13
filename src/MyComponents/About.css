@@ -1,22 +1,20 @@
 .parallelogram {
-    width: 700px;
-    height: 400px;
-    transform: skew(-20deg);
-    background: #1a2537;
+    width: 670px;
+    height: fit-content;
     border: none;
-    box-shadow: 50px 50px #fabe76cc;
     display: inline-block;
+    padding-right: 20px;
 }
 
 .container {
-    margin-top: -17%;
+    margin-top: -11%;
     z-index: 1;
-    width: fit-content;
     height: fit-content;
     transform: translateX(-600%);
     animation: appear 1s 5.2s forwards;
     display: inline;
     position: relative;
+    padding-bottom: 1in;
 }
 
 @keyframes appear {
@@ -25,14 +23,28 @@
     }
 
     to {
-        transform: translateX(-30%);
+        transform: translateX(0%);
     }
 }
 
-p {
-    color: white;
-    padding: 40px;
-    transform: skew(15deg);
-    font-family: 'La Belle Aurore';
+.about-data {
+    color: black;
     font-size: 24px;
+    line-height: 1.6;
+}
+
+.dp {
+    height: fit-content;
+    width: 30%;
+    overflow: hidden;
+    padding-left: 50px;
+    box-shadow: 60px -26px #b1aeaf8e;
+}
+
+.about-title {
+    color: black;
+    font-size: 60px;
+    font-weight: 1000;
+    width: 350px;
+    font-family: 'Roboto Condensed', sans-serif;
 }

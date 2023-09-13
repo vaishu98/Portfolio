@@ -1,0 +1,35 @@
+.socials-title {
+    color: black;
+    font-size: 40px;
+    font-weight: 1000;
+    width: 320px;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding-top: 1.2in;
+    padding: 0.7in;
+    text-align: center;
+}
+
+.socials a {
+    padding: 60px;
+    color: black;
+}
+
+.socials a:hover {
+    padding: 60px;
+    color: #b06f86;
+}
+
+.social-link {
+    font-size: large;
+}
+
+.other-links a {
+    font-style: italic;
+    font-weight: 700;
+    color: black;
+    text-decoration: none;
+}
+
+.other-links a:hover {
+    color: #b06f86;
+}

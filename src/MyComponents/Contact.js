@@ -1,18 +1,49 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import "./Contact.css"
+import emailjs from '@emailjs/browser'
 
-export default function Contact() {
+const Contact = () => {
+
+    const refForm = useRef()
+
+    const sendEmail = (e) => {
+        e.preventDefault()
+        emailjs.sendForm(
+            'service_48deetd',
+            'template_m6suigj',
+            refForm.current,
+            'YKlO1ezBzoHAd-Tg7'
+        )
+            .then(
+                () => {
+                    alert('Message sent successfully!')
+                    window.location.reload(false)
+                },
+                () => {
+                    alert('Failed to send the Message! Please try again')
+                    window.location.reload(false)
+                }
+            )
+    }
     return (
-        <div className='contact-main'>
-            <p className='tag-open'><mark>&lt; Contact Me &gt; </mark></p>
-            <div className='contact-sub1'>
-
-            </div>
-            <div className='gap' />
-            <div className='contact-sub2'>
-
-            </div>
-            <p className='tag-close'><mark>&lt; Contact Me &#47;  &gt; </mark></p>
-        </div>
+        <>
+            <>
+                <link rel="preconnect" href="https://fonts.googleapis.com" />
+                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+                <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet" />
+            </>
+            <div id="contact" className='contact-title'>SAY HELLO!</div>
+            <form ref={refForm} onSubmit={sendEmail}>
+                <div className='contact-main'>
+                    <input type="text" name="from_name" placeholder="Name" required />
+                    <input type="email" name="email" placeholder="Email" required />
+                    <input type="text" name="subject" placeholder="Subject" required />
+                    <textarea name="message" placeholder="Message" required />
+                    <div className='button-sub'><input type="submit" className="flat-button" value="SEND" /></div>
+                </div>
+            </form>
+        </>
     )
 }
+
+export default Contact

@@ -1,22 +1,82 @@
-.skills-main {
-    z-index: 1;
-    width: fit-content;
-    height: fit-content;
-    margin-top: 50;
-    position: relative;
-    vertical-align: middle;
-    align-items: center;
-    display: inline-block;
+.skills-title {
+    color: black;
+    font-size: 40px;
+    font-weight: 1000;
+    width: 320px;
+    font-family: 'Roboto Condensed', sans-serif;
+
+    padding: 0.5in;
+    text-align: center;
 }
 
-.each-skill {
+.skills-container {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+}
+
+.left-skills {
+    height: fit-content;
+    width: fit-content;
+    border-right: solid rgba(128, 128, 128, 0.255);
+}
+
+.right-skills {
+    height: fit-content;
+    width: fit-content;
+    border-left: solid rgba(128, 128, 128, 0.255);
+}
+
+.each-domain1 {
     height: 400px;
-    width: 370px;
-    background: #1a2537;
-    display: inline-block;
-    margin: 30px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    box-shadow: 30px 30px #fabe76cc;
-    transform: skew(-5deg);
+    width: 550px;
+    background-color: rgba(255, 255, 255, 0.358);
+    margin: 70px;
+    margin-top: 10px;
+    box-shadow: 10px 15px 18px 10px rgba(23.000000000000004, 23.000000000000004, 36, 0.1);
+    border-radius: 10px;
+}
+
+.skill-domain-title {
+    height: 58px;
+    width: 350px;
+    padding: 0%;
+    font-weight: 800;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 21px;
+    background-color: black;
+    margin-left: 100px;
+}
+
+.skill {
+    font-size: larger;
+    font-weight: 600;
+}
+
+.left-skill {
+    padding: 50px;
+    text-align: center;
+}
+
+.right-skill {
+    text-align: center;
+    padding: 50px;
+}
+
+.actual-skills {
+    display: flex;
+    margin: 20px;
+    margin-top: 0%;
+}
+
+.ficon {
+    padding-right: 10px;
+}
+
+.center-skill {
+    padding-top: 50px;
+    text-align: center;
 }
