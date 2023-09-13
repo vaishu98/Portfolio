@@ -7,7 +7,8 @@ export default function Experience() {
             <link rel="preconnect" href="https://fonts.googleapis.com" />
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
             <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet" />
-        </><div id="experience" className='exp-title'>EXPERIENCE</div>
+        </>
+            <div id="experience" className='exp-title'>EXPERIENCE</div>
             <div className='exp-main'>
                 <div className='each-exp'>
                     <p className='role'><li><span>STUDENT ASSISTANT</span></li></p>
