@@ -11,6 +11,7 @@ import Contact from './MyComponents/Contact';
 import Education from './MyComponents/Education';
 import Review from './MyComponents/Review';
 import Socials from './MyComponents/Socials';
+import Footer from './MyComponents/Footer';
 
 function App() {
 
@@ -34,6 +35,7 @@ function App() {
         <Socials />
         <Review />
         <Contact />
+        <Footer />
       </div>
     </>
   );

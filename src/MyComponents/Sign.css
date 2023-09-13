@@ -2,6 +2,9 @@ line {
     height: 0px;
     width: 1px;
     border-bottom: 1px solid black;
+    -webkit-animation: increase 1.5s, fadeOut 1.5s 4s;
+    -o-animation: increase 1.5s, fadeOut 1.5s 4s;
+    -moz-animation: increase 1.5s, fadeOut 1.5s 4s;
     animation: increase 1.5s, fadeOut 1.5s 4s;
     animation-fill-mode: forwards;
 }
@@ -11,8 +14,10 @@ line2 {
     height: 0px;
     width: 1px;
     border-bottom: 1px solid black;
-    animation: increase2 1.5s normal 1.5s,
-        fadeOut 1.5s 4s;
+    animation: increase2 1.5s normal 1.5s, fadeOut 1.5s 4s;
+    -webkit-animation: increase2 1.5s normal 1.5s, fadeOut 1.5s 4s;
+    -o-animation: increase2 1.5s normal 1.5s, fadeOut 1.5s 4s;
+    -moz-animation: increase2 1.5s normal 1.5s, fadeOut 1.5s 4s;
     animation-fill-mode: forwards;
 }
 
@@ -34,9 +39,10 @@ vdown {
     border-bottom: 2px solid;
     margin-bottom: 93px;
     margin-left: 45.5px;
-    -webkit-animation: draw1 1.5s;
-    animation: draw1 1.5s,
-        fadeOut 1.5s 4s;
+    -webkit-animation: draw1 1.5s, fadeOut 1.5s 4s;
+    -o-animation: draw1 1.5s, fadeOut 1.5s 4s;
+    -moz-animation: draw1 1.5s, fadeOut 1.5s 4s;
+    animation: draw1 1.5s, fadeOut 1.5s 4s;
     animation-fill-mode: forwards;
     transform-origin: 0 100%;
     transform: rotate(68deg);
@@ -50,8 +56,10 @@ vdown3 {
     border-bottom: 2px solid;
     margin-bottom: 93px;
     margin-left: 40.5px;
-    animation: draw1 1.5s,
-        fadeOut 1.5s 4s;
+    animation: draw1 1.5s, fadeOut 1.5s 4s;
+    -webkit-animation: draw1 1.5s, fadeOut 1.5s 4s;
+    -o-animation: draw1 1.5s, fadeOut 1.5s 4s;
+    -moz-animation: draw1 1.5s, fadeOut 1.5s 4s;
     animation-fill-mode: forwards;
     transform-origin: 0 100%;
     transform: rotate(68deg);
@@ -65,8 +73,10 @@ vdown2 {
     border-bottom: 2px solid;
     margin-bottom: 93px;
     margin-left: 45.5px;
-    animation: draw3 1.5s normal 1.5s,
-        fadeOut 1.5s 4s;
+    animation: draw3 1.5s normal 1.5s, fadeOut 1.5s 4s;
+    -o-animation: draw3 1.5s normal 1.5s, fadeOut 1.5s 4s;
+    -webkit-animation: draw3 1.5s normal 1.5s, fadeOut 1.5s 4s;
+    -moz-animation: draw3 1.5s normal 1.5s, fadeOut 1.5s 4s;
     animation-fill-mode: forwards;
     transform-origin: 0 100%;
     transform: rotate(68deg);
@@ -80,8 +90,10 @@ vup {
     border-bottom: 2px solid;
     margin-top: 88px;
     margin-left: 85px;
-    animation: draw2 1.5s,
-        fadeOut 1.5s 4s;
+    animation: draw2 1.5s, fadeOut 1.5s 4s;
+    -webkit-animation: draw2 1.5s, fadeOut 1.5s 4s;
+    -o-animation: draw2 1.5s, fadeOut 1.5s 4s;
+    -moz-animation: draw2 1.5s, fadeOut 1.5s 4s;
     animation-fill-mode: forwards;
     transform-origin: 0 100%;
     transform: rotate(-68deg);
@@ -96,8 +108,10 @@ vup3 {
     margin-top: 88px;
     margin-left: 82.2px;
     margin-bottom: 12px;
-    animation: draw5 1.5s,
-        fadeOut 1.5s 4s;
+    animation: draw5 1.5s, fadeOut 1.5s 4s;
+    -webkit-animation: draw5 1.5s, fadeOut 1.5s 4s;
+    -o-animation: draw5 1.5s, fadeOut 1.5s 4s;
+    -moz-animation: draw5 1.5s, fadeOut 1.5s 4s;
     animation-fill-mode: forwards;
     transform-origin: 0 100%;
     transform: rotate(-68deg);
@@ -111,8 +125,10 @@ vup2 {
     border-bottom: 2px solid;
     margin-top: 88px;
     margin-left: 85px;
-    animation: draw4 1.5s normal 1.5s,
-        fadeOut 1.5s 4s;
+    animation: draw4 1.5s normal 1.5s, fadeOut 1.5s 4s;
+    -webkit-animation: draw4 1.5s normal 1.5s, fadeOut 1.5s 4s;
+    -o-animation: draw4 1.5s normal 1.5s, fadeOut 1.5s 4s;
+    -moz-animation: draw4 1.5s normal 1.5s, fadeOut 1.5s 4s;
     animation-fill-mode: forwards;
     transform-origin: 0 100%;
     transform: rotate(-68deg);
@@ -173,8 +189,10 @@ c3 {
     margin-left: -1.4px;
     position: absolute;
     margin-right: 20px;
-    animation: ccolor1 1.5s ease-in 1.5s,
-        cdisappear2 1.2s 4s;
+    animation: ccolor1 1.5s ease-in 1.5s, cdisappear2 1.2s 4s;
+    -webkit-animation: ccolor1 1.5s ease-in 1.5s, cdisappear2 1.2s 4s;
+    -o-animation: ccolor1 1.5s ease-in 1.5s, cdisappear2 1.2s 4s;
+    -moz-animation: ccolor1 1.5s ease-in 1.5s, cdisappear2 1.2s 4s;
     animation-fill-mode: forwards;
 }
 
@@ -187,6 +205,9 @@ c2 {
     position: absolute;
     margin-right: 20px;
     animation: ccolor2 1.5s ease-in 0s, cdisappear1 1.2s 4s;
+    -webkit-animation: ccolor2 1.5s ease-in 0s, cdisappear1 1.2s 4s;
+    -o-animation: ccolor2 1.5s ease-in 0s, cdisappear1 1.2s 4s;
+    -moz-animation: ccolor2 1.5s ease-in 0s, cdisappear1 1.2s 4s;
     animation-fill-mode: forwards;
 }
 
@@ -280,6 +301,9 @@ c2 {
     font-size: 2em;
     visibility: hidden;
     animation: focus-in-contract 0.7s linear 1.5s, fadeOut 1.2s 4s;
+    -webkit-animation: focus-in-contract 0.7s linear 1.5s, fadeOut 1.2s 4s;
+    -o-animation: focus-in-contract 0.7s linear 1.5s, fadeOut 1.2s 4s;
+    -moz-animation: focus-in-contract 0.7s linear 1.5s, fadeOut 1.2s 4s;
     animation-fill-mode: forwards;
     font-family: 'Roboto Condensed', sans-serif;
 }

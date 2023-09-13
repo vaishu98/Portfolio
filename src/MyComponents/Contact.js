@@ -1,8 +1,14 @@
-import React, { useRef } from 'react'
+import React, { useRef, useEffect } from 'react'
 import "./Contact.css"
 import emailjs from '@emailjs/browser'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Contact = () => {
+
+    useEffect(() => {
+        AOS.init();
+    }, [])
 
     const refForm = useRef()
 
@@ -35,11 +41,11 @@ const Contact = () => {
             <div id="contact" className='contact-title'>SAY HELLO!</div>
             <form ref={refForm} onSubmit={sendEmail}>
                 <div className='contact-main'>
-                    <input type="text" name="from_name" placeholder="Name" required />
-                    <input type="email" name="email" placeholder="Email" required />
-                    <input type="text" name="subject" placeholder="Subject" required />
-                    <textarea name="message" placeholder="Message" required />
-                    <div className='button-sub'><input type="submit" className="flat-button" value="SEND" /></div>
+                    <input type="text" name="from_name" placeholder="Name" required data-aos="fade-up" />
+                    <input type="email" name="email" placeholder="Email" required data-aos="fade-up" />
+                    <input type="text" name="subject" placeholder="Subject" required data-aos="fade-up" />
+                    <textarea name="message" placeholder="Message" required data-aos="fade-up" />
+                    <div className='button-sub'><input type="submit" className="flat-button" value="SEND" data-aos="fade-up" /></div>
                 </div>
             </form>
         </>

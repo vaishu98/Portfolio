@@ -1,9 +1,17 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import "./Skills.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import { faPython, faJava, faJs, faHtml5, faCss3, faBootstrap, faReact, faAngular, faMdb, faDocker, faMaxcdn, faGitAlt, faJira } from '@fortawesome/free-brands-svg-icons'
 
 export default function Skills() {
+
+    useEffect(() => {
+        AOS.init();
+    }, [])
+
+
     return (
         <>
             <>
@@ -14,10 +22,10 @@ export default function Skills() {
             <div className='skills-container'>
                 <div className='left-skills'>
                     <div className='each-domain1'>
-                        <div className='skill-domain-title'>
+                        <div className='skill-domain-title' data-aos="fade-up">
                             LANGUAGES
                         </div>
-                        <div className='actual-skills'>
+                        <div className='actual-skills' data-aos="fade-left">
                             <div className='left-skill'>
                                 <p className='skill'><FontAwesomeIcon className='ficon' icon={faPython} size="2xl" />Python</p>
                                 <p className='skill'><FontAwesomeIcon className='ficon' icon={faJava} size="2xl" />JAVA</p>
@@ -31,10 +39,10 @@ export default function Skills() {
                         </div>
                     </div>
                     <div className='each-domain1'>
-                        <div className='skill-domain-title'>
+                        <div className='skill-domain-title' data-aos="fade-up">
                             BACKEND
                         </div>
-                        <div className='center-skill'>
+                        <div className='center-skill' data-aos="fade-left">
                             <p className='skill'>Spring boot</p>
                             <p className='skill'>Flask</p>
                             <p className='skill'>Django</p>
@@ -42,10 +50,10 @@ export default function Skills() {
                         </div>
                     </div>
                     <div className='each-domain1'>
-                        <div className='skill-domain-title'>
+                        <div className='skill-domain-title' data-aos="fade-up">
                             DATABASES
                         </div>
-                        <div className='actual-skills'>
+                        <div className='actual-skills' data-aos="fade-left">
                             <div className='left-skill'>
                                 <p className='skill'>MySQL</p>
                                 <p className='skill'>Oracle(PL/SQL)</p>
@@ -63,10 +71,10 @@ export default function Skills() {
                 </div>
                 <div className='right-skills'>
                     <div className='each-domain1'>
-                        <div className='skill-domain-title'>
+                        <div className='skill-domain-title' data-aos="fade-up">
                             FRONTEND
                         </div>
-                        <div className='actual-skills'>
+                        <div className='actual-skills' data-aos="fade-left">
                             <div className='left-skill'>
                                 <p className='skill'><FontAwesomeIcon className='ficon' icon={faHtml5} size="2xl" />HTML</p>
                                 <p className='skill'><FontAwesomeIcon className='ficon' icon={faCss3} size="2xl" />CSS</p>
@@ -80,10 +88,10 @@ export default function Skills() {
                         </div>
                     </div>
                     <div className='each-domain1'>
-                        <div className='skill-domain-title'>
+                        <div className='skill-domain-title' data-aos="fade-up">
                             TOOLS
                         </div>
-                        <div className='actual-skills'>
+                        <div className='actual-skills' data-aos="fade-left">
                             <div className='left-skill'>
                                 <p className='skill'><FontAwesomeIcon className='ficon' icon={faDocker} size="2xl" />Docker</p>
                                 <p className='skill'>Kubernetes</p>
@@ -99,10 +107,10 @@ export default function Skills() {
                         </div>
                     </div>
                     <div className='each-domain1'>
-                        <div className='skill-domain-title'>
+                        <div className='skill-domain-title' data-aos="fade-up">
                             AIML
                         </div>
-                        <div className='center-skill'>
+                        <div className='center-skill' data-aos="fade-left">
                             <p className='skill'>Keras</p>
                             <p className='skill'>Tensorflow</p>
                             <p className='skill'>Pytorch</p>

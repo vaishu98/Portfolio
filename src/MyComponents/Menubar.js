@@ -14,7 +14,7 @@ function MenuBar() {
             });
             setTimeout(() => {
                 setActiveMenuItem(targetId);
-            }, 10000);
+            }, 100);
         }
     };
 

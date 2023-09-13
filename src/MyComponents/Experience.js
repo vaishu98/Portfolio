@@ -1,7 +1,14 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import "./Experience.css"
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export default function Experience() {
+
+    useEffect(() => {
+        AOS.init();
+    }, [])
+
     return (
         <><>
             <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -10,23 +17,23 @@ export default function Experience() {
         </>
             <div id="experience" className='exp-title'>EXPERIENCE</div>
             <div className='exp-main'>
-                <div className='each-exp'>
-                    <p className='role'><li><span>STUDENT ASSISTANT</span></li></p>
+                <div className='each-exp' data-aos="fade-left">
+                    <p className='role'><li><span>STUDENT ASSISTANT - FRONTEND SUPPORT</span></li></p>
                     <p className='role'>UNIVERSITY OF FLORIDA</p>
                     <p className='des'>2023 August - 2023 October</p>
                     <p className='des'>
                         Citrus Research and Education Center
                     </p>
                 </div>
-                <div className='each-exp'>
-                    <p className='role'><li><span>STUDENT ASSISTANT</span></li></p>
+                <div className='each-exp' data-aos="fade-left">
+                    <p className='role'><li><span>STUDENT ASSISTANT - FULLSTACK &amp; MOBILE DEVELOPMENT</span></li></p>
                     <p className='role'>UNIVERSITY OF FLORIDA</p>
                     <p className='des'>2023 August - 2023 December</p>
                     <p className='des'>
                         Animal Sciences Lab
                     </p>
                 </div>
-                <div className='each-exp'>
+                <div className='each-exp' data-aos="fade-left">
                     <p className='role'><li><span>SYSTEM ENGINEER</span></li></p>
                     <p className='role'>TATA CONSULTANCY SERVICES</p>
                     <p className='des'>2020 July - 2022 July</p>
@@ -34,7 +41,7 @@ export default function Experience() {
                         Technology Business Unit, Nextgen Reseach and Development Division
                     </p>
                 </div>
-                <div className='each-exp2'>
+                <div className='each-exp2' data-aos="fade-left">
                     <p className='role'><li><span>RESEARCH INTERN</span></li></p>
                     <p className='role'>TATA CONSULTANCY SERVICES</p>
                     <p className='des'>2020 January - 2022 March</p>
