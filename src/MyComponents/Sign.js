@@ -19,10 +19,11 @@ export default function Sign() {
                 <c3></c3>
                 <c2></c2>
             </div>
-            <line></line>
-            <line2></line2>
+            <div class="line"></div>
+            <div class="line2"></div>
             <div className='at-container'>
-                <div className='at-item' >VAISHNAVI CHILAKAMARTHI</div>
+                <div className='at-item' >VAISHNAVI</div>
+                <div className='at-item' >CHILAKAMARTHI</div>
             </div>
         </>
     )

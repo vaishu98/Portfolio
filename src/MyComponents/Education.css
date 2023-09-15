@@ -2,11 +2,9 @@
     color: black;
     font-size: 40px;
     font-weight: 1000;
-    width: 350px;
     font-family: 'Roboto Condensed', sans-serif;
-    margin-left: 43%;
-    padding-top: 1.2in;
-    padding-bottom: 0.5in;
+    padding: 0.5in;
+    text-align: center;
 }
 
 .edu-container {
@@ -16,9 +14,10 @@
 }
 
 .each-edu {
-    width: 600px;
+    text-align: left;
+    width: 40vw;
     background-color: white;
-    height: 250px;
+    height: fit-content;
     display: flex;
     margin: 20px;
     padding: 20px;
@@ -35,7 +34,6 @@
 
 .edu {
     display: inline-block;
-    padding: 20px;
     width: 60%;
 }
 
@@ -49,4 +47,24 @@
     font-size: 14px;
     font-weight: 500;
     line-height: 0.5cm;
+}
+
+@media screen and (max-width: 1000px) {
+    .edu-container {
+        width: fit-content;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .each-edu {
+        width: 90vw;
+        background-color: white;
+        height: fit-content;
+        display: flex;
+        margin: 20px;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 10px 15px 18px 0px rgba(23.000000000000004, 23.000000000000004, 36, 0.03);
+    }
 }

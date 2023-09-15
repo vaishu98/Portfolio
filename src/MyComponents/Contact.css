@@ -7,7 +7,6 @@
     padding-top: 1.2in;
     text-align: center;
     padding-bottom: 0.5in;
-    ;
 }
 
 .contact-main {
@@ -21,7 +20,7 @@ input {
     overflow: hidden;
     background-color: transparent;
     border-radius: 10px;
-    height: 25px;
+    height: 50px;
     width: 500px;
     display: flex;
     border: solid 1px black;
@@ -73,4 +72,35 @@ textarea:focus {
 .button-sub input:hover {
     background-color: black;
     color: white;
+}
+
+@media screen and (max-width:800px) {
+    input {
+        padding: 10px;
+        margin: 20px;
+        overflow: hidden;
+        background-color: transparent;
+        border-radius: 10px;
+        height: 50px;
+        width: 70vw;
+        display: flex;
+        border: solid 1px black;
+        font-size: large;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    textarea {
+        padding: 10px;
+        margin: 20px;
+        overflow: hidden;
+        background-color: transparent;
+        border-radius: 10px;
+        height: 25px;
+        width: 70vw;
+        display: flex;
+        border: solid 1px black;
+        font-size: large;
+        font-family: 'Montserrat', sans-serif;
+        height: 200px
+    }
 }

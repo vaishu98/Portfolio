@@ -1,9 +1,10 @@
 .parallelogram {
-    width: 670px;
+    width: 50vw;
     height: fit-content;
     border: none;
-    display: inline-block;
-    padding-right: 20px;
+    display: inline-flex;
+    flex-direction: column;
+    padding: 20px;
 }
 
 .container {
@@ -12,25 +13,26 @@
     height: fit-content;
     transform: translateX(-600%);
     animation: appear 1s 5.2s forwards;
-    display: inline;
+    display: flex;
+    text-align: left;
     position: relative;
     padding-bottom: 1in;
-}
-
-@keyframes appear {
-    from {
-        transform: translateX(-600%);
-    }
-
-    to {
-        transform: translateX(0%);
-    }
 }
 
 .about-data {
     color: black;
     font-size: 24px;
     line-height: 1.6;
+    padding-top: 20px;
+}
+
+.about-title {
+    color: black;
+    font-size: 60px;
+    font-weight: 1000;
+    width: 30vw;
+    font-family: 'Roboto Condensed', sans-serif;
+    line-height: 2cm;
 }
 
 .dp {
@@ -41,10 +43,61 @@
     box-shadow: 60px -26px #b1aeaf8e;
 }
 
-.about-title {
-    color: black;
-    font-size: 60px;
-    font-weight: 1000;
-    width: 350px;
-    font-family: 'Roboto Condensed', sans-serif;
+@media screen and (max-width: 1000px) {
+    .parallelogram {
+        width: 50vw;
+        height: fit-content;
+        border: none;
+        display: inline-block;
+        padding: 20px;
+    }
+
+    .container {
+        margin-top: -90%;
+        z-index: 1;
+        height: fit-content;
+        transform: translateX(-600%);
+        animation: appear 1s 5.2s forwards;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        position: relative;
+        padding-bottom: 1in;
+    }
+
+    .about-data {
+        color: black;
+        font-size: 14px;
+        line-height: 1.6;
+        padding-top: 20px;
+        width: 30vh;
+    }
+
+    .about-title {
+        color: black;
+        font-size: 40px;
+        font-weight: 1000;
+        width: 30vw;
+        font-family: 'Roboto Condensed', sans-serif;
+        line-height: 1.5cm;
+    }
+
+    .dp {
+        height: fit-content;
+        width: 70%;
+        overflow: hidden;
+        padding-left: 50px;
+        box-shadow: none;
+    }
+
+}
+
+@keyframes appear {
+    from {
+        transform: translateX(-600%);
+    }
+
+    to {
+        transform: translateX(0%);
+    }
 }

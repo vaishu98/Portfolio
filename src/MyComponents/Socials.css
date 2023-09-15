@@ -33,3 +33,14 @@
 .other-links a:hover {
     color: #b06f86;
 }
+
+.socials {
+    display: flex;
+}
+
+@media screen and (max-width:900px) {
+    .socials {
+        display: flex;
+        flex-direction: column;
+    }
+}

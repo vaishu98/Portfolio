@@ -2,25 +2,26 @@
     color: black;
     font-size: 40px;
     font-weight: 1000;
-    width: 320px;
     font-family: 'Roboto Condensed', sans-serif;
-    margin-left: 10%;
-    padding-top: 1.2in;
-    padding-bottom: 0.5in;
+    padding: 0.5in;
+    text-align: center;
 }
 
 .exp-main {
-    width: 47%;
+    width: 50vw;
     height: fit-content;
     border-left: solid 5px rgba(128, 128, 128, 0.552);
     height: fit-content;
     padding: 20px;
     line-height: 0.2cm;
+    text-align: left;
 }
 
 .each-exp {
     padding: 20px;
     background-color: white;
+    display: flex;
+    flex-direction: column;
     border-bottom: solid 5px rgba(128, 128, 128, 0.552);
 }
 
@@ -39,4 +40,21 @@
 li span {
     position: relative;
     left: -10px;
+}
+
+
+@media screen and (max-width:1200px) {
+    .exp-main {
+        width: 70vw;
+        height: fit-content;
+        border-left: solid 5px rgba(128, 128, 128, 0.552);
+        padding: 20px;
+        line-height: 0.2cm;
+    }
+
+    p {
+        padding: 10px;
+        line-height: 0.5cm;
+    }
+
 }

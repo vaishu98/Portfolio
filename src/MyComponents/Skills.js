@@ -46,7 +46,7 @@ export default function Skills() {
                             <p className='skill'>Spring boot</p>
                             <p className='skill'>Flask</p>
                             <p className='skill'>Django</p>
-                            <p className='skill'>Microservice architecture</p>
+                            <p className='skill'>Microservice-Architecture</p>
                         </div>
                     </div>
                     <div className='each-domain1'>
