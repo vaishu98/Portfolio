@@ -69,4 +69,29 @@
         flex-direction: column;
         margin-bottom: 80px;
     }
+
+    .each-pro {
+        width: 320px;
+        height: fit-content;
+        margin: 20px;
+        background-color: white;
+        box-shadow: 10px 15px 18px 0px rgba(23.000000000000004, 23.000000000000004, 36, 0.1);
+        text-align: left;
+    }
+
+    .each-pro-title {
+        background-color: black;
+        height: fit-content;
+        width: 320px;
+        padding: 0%;
+        font-weight: 800;
+        font-family: 'Roboto Condensed', sans-serif;
+        color: white;
+        font-size: 30px;
+        text-align: center;
+        padding-top: 45px;
+        padding: 20px;
+    }
+
+
 }

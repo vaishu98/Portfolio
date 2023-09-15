@@ -57,4 +57,9 @@ li span {
         line-height: 0.5cm;
     }
 
+    li span {
+        position: relative;
+        left: 0px;
+    }
+
 }

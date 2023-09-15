@@ -36,11 +36,15 @@
 }
 
 .dp {
-    height: fit-content;
-    width: 30%;
-    overflow: hidden;
-    padding-left: 50px;
+    height: 100%;
+    width: 100%;
     box-shadow: 60px -26px #b1aeaf8e;
+}
+
+.wrap {
+    margin-top: 70px;
+    width: 300px;
+    height: fit-content;
 }
 
 @media screen and (max-width: 1000px) {
@@ -82,13 +86,6 @@
         line-height: 1.5cm;
     }
 
-    .dp {
-        height: fit-content;
-        width: 70%;
-        overflow: hidden;
-        padding-left: 50px;
-        box-shadow: none;
-    }
 
 }
 

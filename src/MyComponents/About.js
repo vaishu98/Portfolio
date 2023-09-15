@@ -18,7 +18,7 @@ export default function About() {
                         My expertise spans programming languages, database systems, web development, cloud computing, and artificial intelligence.
                     </p>
                 </div>
-                <img className='dp' src={dp} />
+                <div className='wrap'><img className='dp' src={dp} /></div>
             </div></>
     )
 }
