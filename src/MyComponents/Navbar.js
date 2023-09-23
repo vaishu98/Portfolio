@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Sign from "../Assets/sign.png";
+import Qr from "../Assets/qr.png"
 import Resume_Vaishnavi_ChilakamarthiPdf from '../Assets/Resume_Vaishnavi_Chilakamarthi.pdf';
 import './Navbar.css';
 
@@ -119,6 +120,9 @@ function Navbar() {
                                 RESUME                          <i className="fa fa-download"></i>
                             </button>
                         </a></li>
+                        <div className='img-div'>
+                            <a><img className='img-qr' src={Qr}></img></a>
+                        </div>
                     </ul>
                 </div>
 

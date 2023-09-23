@@ -3,7 +3,7 @@ import "./Sign.css"
 
 export default function Sign() {
     return (
-        <>
+        <div className='main-sign'>
             <link href="https://fonts.cdnfonts.com/css/la-sonnambula" rel="stylesheet" />
             <style>
                 @import url('https://fonts.cdnfonts.com/css/la-sonnambula');
@@ -25,6 +25,6 @@ export default function Sign() {
                 <div className='at-item' >VAISHNAVI</div>
                 <div className='at-item' >CHILAKAMARTHI</div>
             </div>
-        </>
+        </div>
     )
 }

@@ -273,11 +273,11 @@ c2 {
     margin-top: 190px;
 }
 
-@media screen and (max-width: 1325px) {
+@media screen and (max-width: 800px) {
     .at-container {
         display: flex;
         flex-direction: column;
-        margin-top: 220px;
+        margin-top: 320px;
     }
 }
 
@@ -293,7 +293,7 @@ c2 {
 
 .line {
     width: 20%;
-    margin-top: -90px;
+    margin-top: -70px;
     height: 1px;
     background-color: black;
     animation: drawLine 2s linear, fadeOut 1.5s 4s;
@@ -309,7 +309,7 @@ c2 {
 
 .line2 {
     width: 20%;
-    margin-top: -87px;
+    margin-top: -67px;
     height: 1px;
     background-color: black;
     animation: drawLine2 2s linear, fadeOut 1.5s 4s;
@@ -343,16 +343,36 @@ c2 {
     }
 }
 
-@media screen and (max-width: 1325px) {
+@keyframes drawLine3 {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 40%;
+    }
+}
+
+@keyframes drawLine4 {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 50%;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 1225px) {
     .line {
-        margin-top: -50px;
-        width: 20%;
+        width: 40%;
         height: 1px;
+        margin-top: -20%;
         background-color: black;
-        animation: drawLine 2s linear, fadeOut 1.5s 4s;
-        -webkit-animation: drawLine 2s linear, fadeOut 1.5s 4s;
-        -o-animation: drawLine 2s linear, fadeOut 1.5s 4s;
-        -moz-animation: drawLine 2s linear, fadeOut 1.5s 4s;
+        animation: drawLine3 2s linear, fadeOut 1.5s 4s;
+        -webkit-animation: drawLine3 2s linear, fadeOut 1.5s 4s;
+        -o-animation: drawLine3 2s linear, fadeOut 1.5s 4s;
+        -moz-animation: drawLine3 2s linear, fadeOut 1.5s 4s;
         animation-fill-mode: forwards;
         position: absolute;
         left: 50%;
@@ -361,14 +381,48 @@ c2 {
     }
 
     .line2 {
-        width: 20%;
-        margin-top: -47px;
+        width: 40%;
         height: 1px;
+        margin-top: -19.5%;
         background-color: black;
-        animation: drawLine2 2s linear, fadeOut 1.5s 4s;
-        -webkit-animation: drawLine2 2s linear, fadeOut 1.5s 4s;
-        -o-animation: drawLine2 2s linear, fadeOut 1.5s 4s;
-        -moz-animation: drawLine2 2s linear, fadeOut 1.5s 4s;
+        animation: drawLine4 2s linear, fadeOut 1.5s 4s;
+        -webkit-animation: drawLine4 2s linear, fadeOut 1.5s 4s;
+        -o-animation: drawLine4 2s linear, fadeOut 1.5s 4s;
+        -moz-animation: drawLine4 2s linear, fadeOut 1.5s 4s;
+        animation-fill-mode: forwards;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .line {
+        width: 40%;
+        height: 1px;
+        margin-top: -9%;
+        background-color: black;
+        animation: drawLine3 2s linear, fadeOut 1.5s 4s;
+        -webkit-animation: drawLine3 2s linear, fadeOut 1.5s 4s;
+        -o-animation: drawLine3 2s linear, fadeOut 1.5s 4s;
+        -moz-animation: drawLine3 2s linear, fadeOut 1.5s 4s;
+        animation-fill-mode: forwards;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .line2 {
+        width: 40%;
+        height: 1px;
+        margin-top: -8.5%;
+        background-color: black;
+        animation: drawLine4 2s linear, fadeOut 1.5s 4s;
+        -webkit-animation: drawLine4 2s linear, fadeOut 1.5s 4s;
+        -o-animation: drawLine4 2s linear, fadeOut 1.5s 4s;
+        -moz-animation: drawLine4 2s linear, fadeOut 1.5s 4s;
         animation-fill-mode: forwards;
         position: absolute;
         left: 50%;

@@ -40,6 +40,18 @@ export default function Projects() {
                     </div>
                     <div className='each-pro'>
                         <div className='each-pro-title' data-aos="fade-down">
+                            CARERR GPT
+                        </div>
+                        <div className='proj-content' data-aos="fade-left">
+                            Winning submission at Shellhacks 2023 - Career GPT, a dynamic full-stack Django web application that offers a range of features including skill gap analysis for desired positions, role recommendations, automatic resume section enhancement based on job descriptions, and personalized strength and weakness assessments. Career GPT also seamlessly stores user resumes, using key information to enhance interactions with ChatGPT
+                            <p className='tech'>Tech: Django, HTML, CSS</p>
+                            <p className='tech'><a href='https://devpost.com/software/careergpt'>Code  & Demo</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div className='row-pro'>
+                    <div className='each-pro'>
+                        <div className='each-pro-title' data-aos="fade-down">
                             FOODRATOR
                         </div>
                         <div className='proj-content' data-aos="fade-left">
@@ -47,8 +59,6 @@ export default function Projects() {
                             <p className='tech'>Tech: Django, React</p>
                         </div>
                     </div>
-                </div>
-                <div className='row-pro'>
                     <div className='each-pro'>
                         <div className='each-pro-title' data-aos="fade-down">
                             STOCK PRICE DASHBOARD
@@ -68,6 +78,8 @@ export default function Projects() {
                             <p className='tech'>Tech: Python, Tensorflow, Keras, Statistics</p>
                         </div>
                     </div>
+                </div>
+                <div className='row-pro'>
                     <div className='each-pro'>
                         <div className='each-pro-title' data-aos="fade-down">
                             LOAN PREDICTOR
@@ -77,8 +89,6 @@ export default function Projects() {
                             <p className='tech'>Tech: Flask, Scikit-learn, Matplotlib, Seaborn</p>
                         </div>
                     </div>
-                </div>
-                <div className='row-pro'>
                     <div className='each-pro'>
                         <div className='each-pro-title' data-aos="fade-down">
                             DRIVER DROWSINESS DETECTION
@@ -98,6 +108,8 @@ export default function Projects() {
                             <p className='tech'><a href='https://github.com/vaishu98/React-Dashboard-Using-Recharts'>View Code</a> <a href='https://vaishu98.github.io/React-Dashboard-Using-Recharts/'>Demo</a></p>
                         </div>
                     </div>
+                </div>
+                <div className='row-pro'>
                     <div className='each-pro'>
                         <div className='each-pro-title' data-aos="fade-down">
                             UNITY FPC

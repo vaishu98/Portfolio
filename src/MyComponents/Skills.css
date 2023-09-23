@@ -133,6 +133,63 @@ p {
     }
 }
 
+@media (min-width:800px) and (max-width: 1000px) {
+    .skills-container {
+        height: fit-content;
+        width: 80vw;
+        display: flex;
+        flex-direction: column;
+        margin: 0%;
+        margin-top: -50px;
+    }
+
+    .left-skills {
+        width: 75vw;
+        margin: 0%;
+        height: fit-content;
+        border-right: none;
+    }
+
+    .right-skills {
+        width: 75vw;
+        margin: 0%;
+        height: fit-content;
+        border-left: none;
+    }
+
+    .each-domain1 {
+        height: fit-content;
+        width: 80vw;
+        margin: 0%;
+        margin-top: 10%;
+    }
+
+    .actual-skills {
+        padding: 5px;
+        display: flex;
+        flex-direction: row;
+        margin: 0%;
+    }
+
+    .left-skill {
+        width: 30vw;
+        padding: 30px;
+        margin: 0%;
+    }
+
+    .right-skill {
+        width: 30vw;
+        padding: 30px;
+        margin: 0%;
+    }
+
+    .center-skill {
+        width: 60vw;
+        padding: 30px;
+        margin: 0%;
+    }
+}
+
 .ficon {
     padding-right: 10px;
 }
