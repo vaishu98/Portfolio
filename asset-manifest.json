@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.0fadc629.css",
-    "main.js": "/Portfolio/static/js/main.097cd125.js",
+    "main.css": "/Portfolio/static/css/main.c721e233.css",
+    "main.js": "/Portfolio/static/js/main.83d9c722.js",
     "static/js/787.c5998116.chunk.js": "/Portfolio/static/js/787.c5998116.chunk.js",
     "static/media/Resume_Vaishnavi_Chilakamarthi.pdf": "/Portfolio/static/media/Resume_Vaishnavi_Chilakamarthi.a7dbd27b633e0b5d79ae.pdf",
-    "static/media/qr.png": "/Portfolio/static/media/qr.a5059360b48223822b31.png",
+    "static/media/qr.png": "/Portfolio/static/media/qr.2b9fb634ba6fcf365dad.png",
     "static/media/dp.jpeg": "/Portfolio/static/media/dp.39ab79acede7c02893c7.jpeg",
     "index.html": "/Portfolio/index.html",
-    "main.0fadc629.css.map": "/Portfolio/static/css/main.0fadc629.css.map",
-    "main.097cd125.js.map": "/Portfolio/static/js/main.097cd125.js.map",
+    "main.c721e233.css.map": "/Portfolio/static/css/main.c721e233.css.map",
+    "main.83d9c722.js.map": "/Portfolio/static/js/main.83d9c722.js.map",
     "787.c5998116.chunk.js.map": "/Portfolio/static/js/787.c5998116.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0fadc629.css",
-    "static/js/main.097cd125.js"
+    "static/css/main.c721e233.css",
+    "static/js/main.83d9c722.js"
   ]
 }
