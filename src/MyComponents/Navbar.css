@@ -20,6 +20,7 @@ nav {
 .img-div {
     width: 1in;
     height: 1in;
+    display: none;
 }
 
 .img-qr {
@@ -94,7 +95,7 @@ button:hover {
         align-items: flex-start;
         justify-content: flex-start;
         position: fixed;
-        top: 77px;
+        top: 79px;
         right: -300px;
         width: 300px;
         height: 1000vh;
@@ -124,6 +125,7 @@ button:hover {
     .img-div {
         width: 2in;
         height: 2in;
+        display: flex;
     }
 
     .img-qr {
