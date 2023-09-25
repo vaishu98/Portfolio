@@ -27,6 +27,9 @@ export default function Review() {
                     I strongly vouch for her technical and interpersonal skills, grit, and commitment. She would be a great asset to any team.
                 </div>
                 <div className='close-quote' data-aos="fade-left"><i class="fa fa-quote-right" aria-hidden="true"></i></div>
+                <div className='each-review2' data-aos="fade-left">
+                    <strong> &nbsp; &nbsp; &nbsp; &nbsp; - Guru Charan Prasad Jonnalagadda, Head Cloud, DevOps and Enterprise Architecture, Tata Consultancy Services.</strong>
+                </div>
                 <div className='gap-div'></div>
                 <div className='open-quote' data-aos="fade-left"><i class="fa fa-quote-left" aria-hidden="true"></i></div>
 
@@ -38,6 +41,9 @@ export default function Review() {
                     I would definitely recommend and endorse her.
                 </div>
                 <div className='close-quote' data-aos="fade-left"><i class="fa fa-quote-right" aria-hidden="true"></i></div>
+                <div className='each-review2' data-aos="fade-left">
+                    <strong>&nbsp; &nbsp; &nbsp; &nbsp; - Monika Bhuvanagiri, Senior Technical Lead, Tata Consultancy Services.</strong>
+                </div>
             </div>
         </>
     )

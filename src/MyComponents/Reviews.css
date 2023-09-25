@@ -20,6 +20,17 @@
     flex-direction: column;
 }
 
+.each-review2 {
+    height: fit-content;
+    width: 70vw;
+    align-content: center;
+    font-style: italic;
+    padding-left: 50px;
+    display: flex;
+    text-align: justify;
+    flex-direction: column;
+}
+
 .open-quote {
     width: 70vw;
     text-align: left;
